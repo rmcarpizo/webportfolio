@@ -231,10 +231,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 48px;
     object-fit: contain;
 }
-/*Tool paragraph Style*/
-.tool-item p {
-    font-size: 0.85rem;
-}
 
 .tool-item {
     text-align: center;
@@ -263,6 +259,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: 500;
     color: #333;
+    font-size: 0.85rem;
 }
 
 /* Tool Icon Specific Colors - Added to fix inline styles */
