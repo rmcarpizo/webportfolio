@@ -126,12 +126,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-3px);
 }
 
-/* Tool Image Styles */
-.tool-img {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
-}
+
  /*Section Style*/
 
 .section-title {
@@ -230,6 +225,17 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+/* Tool Image Styles */
+.tool-img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+/*Tool paragraph Style*/
+.tool-item p {
+    font-size: 0.85rem;
+}
+
 .tool-item {
     text-align: center;
     padding: 1.5rem;
@@ -258,6 +264,44 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     color: #333;
 }
+
+/* Tool Icon Specific Colors - Added to fix inline styles */
+.fa-html5 {
+    color: #E34F26 !important;
+}
+
+.fa-css3-alt {
+    color: #1572B6 !important;
+}
+
+.fa-bootstrap {
+    color: #7952B3 !important;
+}
+
+.fa-js {
+    color: #F7DF1E !important;
+}
+
+.fa-leaf {
+    color: #47A248 !important;
+}
+
+.fa-react {
+    color: #61DAFB !important;
+}
+
+.fa-node-js {
+    color: #339933 !important;
+}
+
+.fa-git-alt {
+    color: #F05032 !important;
+}
+
+.fa-github {
+    color: #181717 !important;
+}
+
 
 /*Contact Section*/
 
